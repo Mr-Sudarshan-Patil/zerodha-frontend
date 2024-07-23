@@ -1,0 +1,56 @@
+
+.container {
+  padding: 0 15px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.btn-primary {
+    width: 20%;
+    font-size: 1rem;
+  }
+
+  .container button {
+    margin: 0px auto;
+    width: 20%;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    width: 20%;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 5px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  .btn-primary {
+    width: 20%;
+    font-size: 0.75rem;
+  }
+}

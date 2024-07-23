@@ -1,0 +1,53 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.125rem;
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    h1 {
+      font-size: 1.9rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1.25rem;
+    }
+  }
+  

@@ -1,0 +1,63 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 992px) {
+    .fs-3 {
+      font-size: 1.75rem;
+    }
+  
+    .fs-5 {
+      font-size: 1.25rem;
+    }
+  
+    .fs-6 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col-12 {
+      padding: 1rem;
+    }
+  
+    .text-center {
+      text-align: center;
+    }
+  
+    .fs-3 {
+      font-size: 1.5rem;
+    }
+  
+    .fs-5 {
+      font-size: 1.125rem;
+    }
+  
+    .fs-6 {
+      font-size: 0.875rem;
+    }
+  
+    .img-fluid {
+      width: 100%;
+    }
+  
+    .d-block {
+      display: block;
+    }
+  
+    .mb-4 {
+      margin-bottom: 1rem;
+    }
+  
+    .mb-2 {
+      margin-bottom: 0.5rem;
+    }
+  }
+  

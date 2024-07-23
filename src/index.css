@@ -11,3 +11,191 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  margin-left: 40px;
+}
+
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 160px;
+}
+
+#supportHero input{
+  margin-top:18px;
+  padding: 10px 50px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+ 
+#supportHero a{
+  font-size: 15px;
+  margin-right:15px;
+}
+
+.ol_list{
+  padding-left:100px
+}
+.ol_p{
+  padding-left:80px
+}
+
+
+
+
+/* Sign up and login */
+
+.form-main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:80px;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #656262;
+}
+.form_container {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.form_container > h2 {
+  margin-block: 1rem;
+  padding-block: 0.6rem;
+  color: rgb(79, 103, 240);
+}
+
+.form_container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.form_container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form_container input {
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.form_container input::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.form_container button {
+  background-color: rgb(79, 103, 240);
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.form_container button:hover {
+  background-color: rgb(65, 85, 201);
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(65, 85, 201);
+  font-weight: 500;
+}
+
+.home_page {
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home_page span {
+  color: rgb(223, 73, 73);
+}
+
+.home_page button {
+  background-color: rgb(223, 73, 73);
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  transition: ease-in 0.3s;
+  border: none;
+}
+
+.home_page button:hover {
+  background-color: #475ddb;
+}
+
+
+@media only screen and (max-width: 1200px){
+  .home_page{
+    font-size: 1.5rem;
+  }
+  .home_page button {
+    padding: 0.6rem 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.nav-item p{
+  font-weight: 600;
+}
+
+.menu {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(70, 70, 70);
+}
+
+.menu.selected {
+  color: #475ddb;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-details{
+  line-height: 1.5px;
+}
+
+.demo-details p{
+  font-size: 15px;
+}
