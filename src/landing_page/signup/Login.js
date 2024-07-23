@@ -27,7 +27,7 @@ const handleLogin = async (e) => {
         return handleError('email and password are required')
     }
     try {
-        const url = `http://localhost:8080/auth/login`;
+        const url = `https://zerodha-backend.vercel.app/auth/login`;
         const response = await fetch(url, {
             method: "POST",
             headers: {
